@@ -87,7 +87,15 @@ const resetBtnEl = document.querySelector('#reset-button')
 
 
 /*-------------------------------- Functions --------------------------------*/
+init()
 
+function init() {
+  board = [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+  turn = 1
+  winner = null
+  render() 
+  resetBtnEl.setAttribute('hidden', true)
+}
 
 
 
