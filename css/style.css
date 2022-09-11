@@ -11,7 +11,7 @@ max-width: 1200px;
 
 }
 
-.game-board{
+section.board{
   display: grid;
   grid-template-columns: 100px 100px 100px 100px 100px 100px 100px; 
   grid-template-rows: 100px 100px 100px 100px 100px 100px; 
@@ -19,9 +19,11 @@ max-width: 1200px;
   margin-top: 50px;
  }
 
- .box {
+ .game-square {
   background-color: white;
   border: 2px solid blue;
+  text-align: center;
+  vertical-align: middle;
  }
 
 

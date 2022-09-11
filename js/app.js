@@ -78,12 +78,14 @@ let board, turn, winner
 /*------------------------ Cached Element References ------------------------*/
 const squareEls = document.querySelectorAll('.game-square')
 const messageEl = document.querySelector('#message')
-// const startBtnEl = document.querySelector('#start-button')
 const resetBtnEl = document.querySelector('#reset-button')
 
 
 /*----------------------------- Event Listeners -----------------------------*/
-
+squareEls.forEach(function(square) {
+  square.addEventListener('click', handleClick)
+})
+resetBtnEl.addEventListener('click', init)
 
 
 /*-------------------------------- Functions --------------------------------*/
@@ -96,6 +98,23 @@ function init() {
   render() 
   resetBtnEl.setAttribute('hidden', true)
 }
+
+function handleClick(evt) {
+  const sqIdx = parseInt(evt.target.id.replace('sq', ''))
+  if(board[sqIdx] || winner !== null){
+    return
+  }
+  board[sqIdx] = turn
+  turn *= -1
+  winner = getWinner()
+  console.log(winner, "winner")
+  render()
+  console.log(board[sqIdx])
+}
+
+
+
+
 
 
 
