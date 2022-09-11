@@ -11,12 +11,16 @@ max-width: 1200px;
 
 }
 
+h1, h2 {
+  text-align: center;
+}
+
 section.board{
   display: grid;
   grid-template-columns: 100px 100px 100px 100px 100px 100px 100px; 
   grid-template-rows: 100px 100px 100px 100px 100px 100px; 
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 25px;
  }
 
  .game-square {
