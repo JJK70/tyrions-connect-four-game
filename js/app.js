@@ -99,6 +99,19 @@ function init() {
   resetBtnEl.setAttribute('hidden', true)
 }
 
+function render() {
+  resetBtnEl.removeAttribute('hidden')
+  resetBtnEl.className = 'retry'
+  board.forEach((square, index) => {
+    if(square === 1) {
+      squareEls[index].textContent = 'Red' 
+    } if (square === -1) {
+      squareEls[index].textContent = 'Yellow' 
+    } else if (square === null){
+      squareEls[index].textContent = ''
+    } 
+})
+
 function handleClick(evt) {
   const sqIdx = parseInt(evt.target.id.replace('sq', ''))
   if(board[sqIdx] || winner !== null){
@@ -111,12 +124,4 @@ function handleClick(evt) {
   render()
   console.log(board[sqIdx])
 }
-
-
-
-
-
-
-
-
-
+}
