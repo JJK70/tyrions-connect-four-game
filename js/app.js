@@ -112,6 +112,16 @@ function render() {
     } 
 })
 
+  if (winner === null){
+    messageEl.textContent = ` It's player ${turn === 1 ? 'Red' : 'Yellow'} turn`
+  } else if (winner === "T"){
+    messageEl.textContent = `This game is a tie!`
+  } else {
+    messageEl.textContent = `It's player ${turn === 1 ? 'Yellow' : 'Red'} that wins the game!`
+  }
+
+  }
+
 function handleClick(evt) {
   const sqIdx = parseInt(evt.target.id.replace('sq', ''))
   if(board[sqIdx] || winner !== null){
@@ -123,5 +133,4 @@ function handleClick(evt) {
   console.log(winner, "winner")
   render()
   console.log(board[sqIdx])
-}
 }
