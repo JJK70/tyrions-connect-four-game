@@ -121,6 +121,7 @@ function render() {
   }
 
   }
+  
 
 function handleClick(evt) {
   const sqIdx = parseInt(evt.target.id.replace('sq', ''))

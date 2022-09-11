@@ -1,6 +1,5 @@
 body {
-  background-color: #F8F8F8;
-/* Use a system font, if none are available use an available sans-sarif   font */
+background-color: #F8F8F8;
 font-family: 'Fredoka One', cursive;
 margin: 0;
 height: 100vh;
@@ -36,6 +35,13 @@ h1, h2 {
   background-color: white;
   border-radius: 50%;
 }
+
+.player-one { 
+  background:red;
+  }
+  .player-two { 
+  background:yellow;
+  }
 
 
  .reset {
