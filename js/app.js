@@ -72,7 +72,7 @@ const winningCombos = [
 ]
 
 /*-------------------------------- Variables --------------------------------*/
-let board, turn, winner
+let board = Array(42).fill(null), tie, turn, winner
 
 
 /*------------------------ Cached Element References ------------------------*/
@@ -113,11 +113,11 @@ function render() {
 })
 
   if (winner === null){
-    messageEl.textContent = ` It's player ${turn === 1 ? 'Red' : 'Yellow'} turn`
+    messageEl.textContent = ` It's player ${turn === 1 ? "Red's" : "Yellow's"} turn`
   } else if (winner === "T"){
     messageEl.textContent = `This game is a tie!`
   } else {
-    messageEl.textContent = `It's player ${turn === 1 ? 'Yellow' : 'Red'} that wins the game!`
+    messageEl.textContent = `It's player ${turn === 1 ? "Yellow's" : "Red's"} that wins the game!`
   }
 
   }
@@ -151,3 +151,4 @@ function getWinner() {
   }
   return null
 }
+
