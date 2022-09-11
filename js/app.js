@@ -134,3 +134,20 @@ function handleClick(evt) {
   render()
   console.log(board[sqIdx])
 }
+
+function getWinner() {
+  if (!board.includes(null)){
+    return "T"
+  }
+  for (let i = 0; i < winningCombos.length; i++) {
+    if (board[winningCombos[i][0]] + board[winningCombos[i][1]] + board[winningCombos[i][2]] + board[winningCombos[i][3]] === 4) {
+      return 1
+    } else if (board[winningCombos[i][0]] + board[winningCombos[i][1]] + board[winningCombos[i][2]] + board[winningCombos[i][3]] === -4) {
+      return -1
+    } 
+  }
+  if (!board.includes(null)){
+    return "T"
+  }
+  return null
+}
