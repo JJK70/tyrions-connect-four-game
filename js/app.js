@@ -125,16 +125,29 @@ function render() {
 
 function handleClick(evt) {
   const sqIdx = parseInt(evt.target.id.replace('sq', ''))
-  if(board[sqIdx] || winner !== null){
+  if(board[sqIdx] || winner) {
     return
   }
-  board[sqIdx] = turn
+  const coinIdx = coinSpot(sqIdx)
+  board[coinIdx] = turn
   turn *= -1
   winner = getWinner()
-  console.log(winner, "winner")
   render()
-  console.log(board[sqIdx])
 }
+
+function coinSpot(sqIdx) {
+//determines a tokens placement
+//accepts sqIdx as input
+//output should be finding the next available idx
+
+  let openSpot = sqIdx + 35
+  //additional logic for determining open position here
+  //check positions of board in multiple of 7 (for loop)
+
+  return openSpot 
+}
+
+
 
 function getWinner() {
   if (!board.includes(null)){
