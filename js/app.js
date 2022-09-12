@@ -100,15 +100,15 @@ function init() {
 }
 
 function render() {
-  // resetBtnEl.removeAttribute('hidden')
-  // resetBtnEl.className = 'retry'
+  resetBtnEl.removeAttribute('hidden')
+  resetBtnEl.className = 'retry'
   board.forEach((square, index) => {
     if(square === 1) {
       squareEls[index].style.backgroundColor = 'red' 
     } if (square === -1) {
       squareEls[index].style.backgroundColor = 'yellow' 
     } else if (square === null){
-      squareEls[index].textContent = ''
+      squareEls[index].style.backgroundColor = 'white'
     } 
 })
 
