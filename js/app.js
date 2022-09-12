@@ -141,6 +141,7 @@ function coinSpot(sqIdx) {
 //output should be finding the next available idx
 
   let openSpot = sqIdx + 35
+  // for (let openSpot = 0; )
   //additional logic for determining open position here
   //check positions of board in multiple of 7 (for loop)
 
