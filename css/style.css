@@ -12,7 +12,8 @@ max-width: 1200px;
 
 h1, h2 {
   text-align: center;
-  color: #ff0000;
+  color: #black;
+  font-weight bold;
 }
 
 #board {

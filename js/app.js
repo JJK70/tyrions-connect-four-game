@@ -154,4 +154,3 @@ function getWinner() {
   }
   return null
 }
-
