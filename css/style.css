@@ -12,18 +12,13 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
 margin-top: 20px;
-
-}
-
-.bg-image {
-  background-image: url('../images/got_background_unsplash.jpg');
-    height: 100vh;
 }
 
 h1, h2 {
   text-align: center;
   color: white;
   font-weight bold;
+  font-weight: 800;
 }
 
 #board {
@@ -48,7 +43,6 @@ h1, h2 {
   justify-content: center;
   align-items: center;
   margin-top:10px;
- 
 }
 
 .game-square {
@@ -71,11 +65,29 @@ h1, h2 {
  }
 
 #reset-button {
-  background-color: aquamarine;
+  background-color: #FF7700;
   border-radius: 35%;
   padding: 8px;
+  font-weight: bold;
 }
 
+#sound {
+  background-color: #CFF2FF;
+  border-radius: 35%;
+  padding: 8px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  width: 150px;
+}
+
+#sound-button {
+  background-color: #CFF2FF;
+  border-radius: 35%;
+  padding: 8px;
+  font-weight: bold;
+  margin-left: 5px;
+}
 
 
 
