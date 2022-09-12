@@ -8,7 +8,16 @@ flex-direction: column;
 margin: 0 auto;
 max-width: 1200px;
 background-image: url("../images/got_background_unsplash.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+margin-top: 20px;
 
+}
+
+.bg-image {
+  background-image: url('../images/got_background_unsplash.jpg');
+    height: 100vh;
 }
 
 h1, h2 {
@@ -60,6 +69,14 @@ h1, h2 {
   width: 32px;
   height: 32px;
  }
+
+#reset-button {
+  background-color: aquamarine;
+  border-radius: 35%;
+  padding: 8px;
+}
+
+
 
 
 
