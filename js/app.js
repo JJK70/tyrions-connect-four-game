@@ -100,28 +100,30 @@ function init() {
 }
 
 function render() {
-  resetBtnEl.removeAttribute('hidden')
-  resetBtnEl.className = 'retry'
+  // resetBtnEl.removeAttribute('hidden')
+  // resetBtnEl.className = 'retry'
   board.forEach((square, index) => {
     if(square === 1) {
-      squareEls[index].textContent = 'Red' 
+      squareEls[index].style.backgroundColor = 'red' 
     } if (square === -1) {
-      squareEls[index].textContent = 'Yellow' 
+      squareEls[index].style.backgroundColor = 'yellow' 
     } else if (square === null){
       squareEls[index].textContent = ''
     } 
 })
 
+
   if (winner === null){
-    messageEl.textContent = ` It's player ${turn === 1 ? "Red's" : "Yellow's"} turn`
+    messageEl.textContent = ` It's player ${turn === 1 ? "🔴" : "🟡"} turn`
   } else if (winner === "T"){
     messageEl.textContent = `This game is a tie!`
   } else {
-    messageEl.textContent = `It's player ${turn === 1 ? "Yellow's" : "Red's"} that wins the game!`
+    messageEl.textContent = `It's player ${turn === 1 ? "🟡" : "🔴"} that wins the game!`
   }
 
   }
-  
+ 
+
 
 function handleClick(evt) {
   const sqIdx = parseInt(evt.target.id.replace('sq', ''))
