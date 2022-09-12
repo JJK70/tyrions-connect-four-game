@@ -24,7 +24,7 @@ h1, h2 {
   margin: 0 auto;
   width: 700x;
   height: 520px;
-  background-color: #25316D;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 60%, rgba(0,212,255,1) 100%, rgba(121,87,9,1) 100%);
   border: 3px solid yellow;
 }
 
@@ -60,6 +60,8 @@ h1, h2 {
   width: 32px;
   height: 32px;
  }
+
+
 
 
 

@@ -104,9 +104,9 @@ function render() {
   resetBtnEl.className = 'retry'
   board.forEach((square, index) => {
     if(square === 1) {
-      squareEls[index].style.backgroundColor = 'red' 
+      squareEls[index].style.backgroundColor = '#FF7700' 
     } if (square === -1) {
-      squareEls[index].style.backgroundColor = 'yellow' 
+      squareEls[index].style.backgroundColor = '#CFF2FF' 
     } else if (square === null){
       squareEls[index].style.backgroundColor = 'white'
     } 
@@ -114,11 +114,11 @@ function render() {
 
 
   if (winner === null){
-    messageEl.textContent = ` It's player ${turn === 1 ? "🔴" : "🟡"} turn`
+    messageEl.textContent = ` It's player ${turn === 1 ? "🔥" : "❄️"} turn`
   } else if (winner === "T"){
     messageEl.textContent = `This game is a tie!`
   } else {
-    messageEl.textContent = `It's player ${turn === 1 ? "🟡" : "🔴"} that wins the game!`
+    messageEl.textContent = `It's player ${turn === 1 ? "❄️" : "🔥"} that wins the game!`
   }
 
   }
