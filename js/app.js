@@ -81,8 +81,8 @@ const messageEl = document.querySelector('#message')
 const resetBtnEl = document.querySelector('#reset-button')
 const tyrionImg = document.querySelector('#tyrion')
 const tyrionSays = new Audio('./audio/a-lannistor-always-pays-his-debts.mp3')
-const tyrionImg = document.querySelector('#tyrion')
-const tyrionSays = new Audio('./audio/a-lannistor-always-pays-his-debts.mp3')
+const tyrionImg2 = document.querySelector('#tyrion2')
+const tyrionSays2 = new Audio('./audio/i-am-happy.mp3')
 
 // const notFoxDiv = document.querySelector("#not-fox")
 
@@ -96,6 +96,11 @@ resetBtnEl.addEventListener('click', init)
 tyrionImg.addEventListener("click", function(evt){
   tyrionSays.volume = .10
   tyrionSays.play()
+})
+
+tyrionImg2.addEventListener("click", function(evt){
+  tyrionSays2.volume = .10
+  tyrionSays2.play()
 })
 
 
