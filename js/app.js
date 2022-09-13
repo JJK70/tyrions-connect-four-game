@@ -136,16 +136,35 @@ function handleClick(evt) {
 }
 
 function coinSpot(sqIdx) {
-//determines a tokens placement
-//accepts sqIdx as input
-//output should be finding the next available idx
-
   let openSpot = sqIdx + 35
-  // for (let openSpot = 0; )
-  //additional logic for determining open position here
-  //check positions of board in multiple of 7 (for loop)
-
   return openSpot 
+}
+
+function CoinSpot(sqIdx) {
+  //determines a tokens placement
+  //accepts spIdx as input
+  //output should be finding the next available idx
+  console.log('bottom space', spIdx + 35)
+  let openSpot = spIdx + 35 
+  if (board[openSpot] !== null) {
+    openSpot = (sqIdx + 28)
+  }
+  if (board[openSpot] !== null) {
+    openSpot = (sqIdx + 21)
+  }
+  if (board[openSpot] !== null) {
+    openSpot = (sqIdx + 14)
+  }
+  if (board[openSpot] !== null) {
+    openSpot = (sqIdx + 7)
+  }
+  if (board[openSpot] !== null) {
+    openSpot = (sqIdx)
+  }
+  //for (let i = 0; i < board.length; i++)
+  //additional logic for determining open pos here
+  //check positions of board in multiples of 7 (for loop)
+  return openSpot
 }
 
 
