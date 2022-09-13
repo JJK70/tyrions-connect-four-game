@@ -97,7 +97,7 @@ function init() {
   winner = null
   render() 
   resetBtnEl.setAttribute('hidden', true)
-  confetti.start(3000)
+  
 }
 
 function render() {
@@ -120,6 +120,7 @@ function render() {
     messageEl.textContent = `This game is a tie!`
   } else {
     messageEl.textContent = `It's player ${turn === 1 ? "❄️" : "🔥"} that wins the game!`
+    confetti.start(3000)
   }
 
   }
