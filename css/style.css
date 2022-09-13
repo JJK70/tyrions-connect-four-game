@@ -24,6 +24,13 @@ h1, h2, h3 {
   padding: 5px 0;
 }
 
+.headlines {
+  background-color: black;
+  max-width: 700px;
+  margin-bottom: 15px;
+  border: 2px solid #CFF2FF;
+}
+
 .fire{
   color: #FF7700;
 }
@@ -41,6 +48,7 @@ h1, h2, h3 {
   height: 520px;
   background: linear-gradient(90deg, rgba(2,0,36,1) 60%, rgba(0,212,255,1) 100%, rgba(121,87,9,1) 100%);
   border: 3px solid #FF7700;
+  padding-bottom: 10px;
 }
 
 #board > div {
@@ -94,6 +102,6 @@ h1, h2, h3 {
   display: flex; 
   width: 700px;
   height: 520px;
-  background-color: white;
   justify-content: center;
+  margin-top: 25px;
 }
