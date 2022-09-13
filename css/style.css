@@ -7,7 +7,7 @@ height: 100vh;
 display: flex;
 flex-direction: column;
 margin: 0 auto;
-max-width: 1200px;
+max-width: 700px;
 background-image: url("../images/got_background_unsplash.jpg");
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -22,6 +22,14 @@ h1, h2, h3 {
   font-weight bold;
   font-weight: 800;
   padding: 5px 0;
+}
+
+.fire{
+  color: #FF7700;
+}
+
+.ice {
+  color: #CFF2FF
 }
 
 #board {
@@ -74,39 +82,18 @@ h1, h2, h3 {
   font-weight: bold;
 }
 
-#sound {
-  display:flex;
-  background-color: black;
-  border-radius: 35%;
-  padding: 8px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 50px;
-  width: 150px;
-}
-
-
 #sound-button {
   background-color: #CFF2FF;
   border-radius: 35%;
   padding: 8px;
   font-weight: bold;
-  margin: 0 0 100px 5px;
+  margin: 0 0 30px 5px;
 }
 
-.fire{
-  color: #FF7700;
+#audio {
+  display: flex; 
+  width: 700px;
+  height: 520px;
+  background-color: white;
+  justify-content: center;
 }
-
-.ice {
-  color: #CFF2FF
-}
-
-
-
-
-
-
-
-
-
