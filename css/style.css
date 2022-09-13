@@ -28,7 +28,7 @@ h1, h2, h3 {
 
  h5 {
   color: white;
-  margin-top: 15px;
+  margin: 15px 15px;
   font-weight: bold;
  }
 
@@ -54,7 +54,8 @@ h1, h2, h3 {
   margin: 0 auto;
   width: 700x;
   height: 520px;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 60%, rgba(0,212,255,1) 100%, rgba(121,87,9,1) 100%);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,22,29,1) 14%, rgba(9,59,121,1) 52%, rgba(13,15,32,1) 100%, rgba(255,149,0,0) 100%);
   border: 3px solid #FF7700;
   padding-bottom: 10px;
 }

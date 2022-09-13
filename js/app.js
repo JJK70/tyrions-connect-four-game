@@ -130,7 +130,7 @@ function render() {
     } if (square === -1) {
       squareEls[index].style.backgroundColor = '#CFF2FF' 
     } else if (square === null){
-      squareEls[index].style.backgroundColor = 'white'
+      squareEls[index].style.backgroundColor = '#B2BEB5'
     } 
 })
 
