@@ -83,8 +83,8 @@ const tyrionImg = document.querySelector('#tyrion')
 const tyrionSays = new Audio('./audio/a-lannistor-always-pays-his-debts.mp3')
 const tyrionImg2 = document.querySelector('#tyrion2')
 const tyrionSays2 = new Audio('./audio/i-am-happy.mp3')
-
-// const notFoxDiv = document.querySelector("#not-fox")
+const tyrionImg3 = document.querySelector('#tyrion3')
+const tyrionSays3 = new Audio('./audio/ive-been-a-busy-man.mp3')
 
 
 /*----------------------------- Event Listeners -----------------------------*/
@@ -101,6 +101,11 @@ tyrionImg.addEventListener("click", function(evt){
 tyrionImg2.addEventListener("click", function(evt){
   tyrionSays2.volume = .10
   tyrionSays2.play()
+})
+
+tyrionImg3.addEventListener("click", function(evt){
+  tyrionSays3.volume = .10
+  tyrionSays3.play()
 })
 
 
