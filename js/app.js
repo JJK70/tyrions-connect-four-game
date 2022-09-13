@@ -97,6 +97,7 @@ function init() {
   winner = null
   render() 
   resetBtnEl.setAttribute('hidden', true)
+  confetti.start(3000)
 }
 
 function render() {
@@ -136,16 +137,7 @@ function handleClick(evt) {
 }
 
 function coinSpot(sqIdx) {
-  let openSpot = sqIdx + 35
-  return openSpot 
-}
-
-function CoinSpot(sqIdx) {
-  //determines a tokens placement
-  //accepts spIdx as input
-  //output should be finding the next available idx
-  console.log('bottom space', spIdx + 35)
-  let openSpot = spIdx + 35 
+  let openSpot = sqIdx + 35 
   if (board[openSpot] !== null) {
     openSpot = (sqIdx + 28)
   }
@@ -161,9 +153,6 @@ function CoinSpot(sqIdx) {
   if (board[openSpot] !== null) {
     openSpot = (sqIdx)
   }
-  //for (let i = 0; i < board.length; i++)
-  //additional logic for determining open pos here
-  //check positions of board in multiples of 7 (for loop)
   return openSpot
 }
 
