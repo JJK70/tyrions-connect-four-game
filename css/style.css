@@ -14,7 +14,7 @@ background-size: cover;
 margin-top: 20px;
 }
 
-h1, h2 {
+h1, h2, h3 {
   text-align: center;
   color: white;
   font-weight bold;
@@ -29,7 +29,7 @@ h1, h2 {
   width: 700x;
   height: 520px;
   background: linear-gradient(90deg, rgba(2,0,36,1) 60%, rgba(0,212,255,1) 100%, rgba(121,87,9,1) 100%);
-  border: 3px solid yellow;
+  border: 3px solid #FF7700;
 }
 
 #board > div {
@@ -87,6 +87,14 @@ h1, h2 {
   padding: 8px;
   font-weight: bold;
   margin-left: 5px;
+}
+
+.fire{
+  color: #FF7700;
+}
+
+.ice {
+  color: #CFF2FF
 }
 
 
