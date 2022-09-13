@@ -27,7 +27,8 @@ h1, h2, h3 {
  }
 
 .headlines {
-  background-color: black;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,87,9,1) 58%, rgba(255,149,0,0) 100%);
   margin-bottom: 15px;
   border: 2px solid #CFF2FF;
 }
@@ -104,4 +105,8 @@ h1, h2, h3 {
   height: 520px;
   justify-content: center;
   margin-top: 25px;
+}
+
+.card-body {
+  padding: 0;
 }

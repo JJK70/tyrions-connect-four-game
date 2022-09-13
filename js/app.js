@@ -79,6 +79,12 @@ let board = Array(42).fill(null), tie, turn, winner
 const squareEls = document.querySelectorAll('.game-square')
 const messageEl = document.querySelector('#message')
 const resetBtnEl = document.querySelector('#reset-button')
+const tyrionImg = document.querySelector('#tyrion')
+const tyrionSays = new Audio('./audio/a-lannistor-always-pays-his-debts.mp3')
+const tyrionImg = document.querySelector('#tyrion')
+const tyrionSays = new Audio('./audio/a-lannistor-always-pays-his-debts.mp3')
+
+// const notFoxDiv = document.querySelector("#not-fox")
 
 
 /*----------------------------- Event Listeners -----------------------------*/
@@ -86,6 +92,11 @@ squareEls.forEach(function(square) {
   square.addEventListener('click', handleClick)
 })
 resetBtnEl.addEventListener('click', init)
+
+tyrionImg.addEventListener("click", function(evt){
+  tyrionSays.volume = .10
+  tyrionSays.play()
+})
 
 
 /*-------------------------------- Functions --------------------------------*/
