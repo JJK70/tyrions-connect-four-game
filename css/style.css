@@ -82,7 +82,7 @@ h1, h2, h3 {
 }
 
 .game-square:hover {
-  background-color: black;
+  background-color: #414a4c;
 }
 
 .reset {
