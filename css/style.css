@@ -101,7 +101,6 @@ h1, h2, h3 {
 
 #audio {
   display: flex; 
-  height: 520px;
   justify-content: center;
   padding-bottom: 50px;
 }
