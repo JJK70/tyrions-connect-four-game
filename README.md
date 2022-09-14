@@ -3,9 +3,11 @@
 
 ![Connect Four](./images/connect_four_hp.jpg "Connect Four")
 
+## PLAY THE GAME HERE: [Tyrion's Connect Four](https://tyrions-lets-connect-game.netlify.app/)
+
 Tyrion's Connect Four is a Connect Four game based on the books and series Game of Thrones! You can start the game by clicking the circles on the board which will drop the pieces into place. The color pieces are orande for fire and light blue for ice. The objective of the game is to get four colors in a row either horizontally, vertically, or diagonally. If either player gets a four-in-a-row, they win the game and a message will let them know. If the game ends in a tie, there's a message to let the users know. Game can be reset at any time once it is started. If a player wins, confetti will drop from the top of the browser. There are three images at the bottom, that when clicked, will play a sound depending on which tile is clicked.
 
-## PLAY THE GAME HERE: [Tyrion's Connect Four](https://tyrions-lets-connect-game.netlify.app/)
+
 
 ### Languages used;
 
@@ -16,7 +18,7 @@ Tyrion's Connect Four is a Connect Four game based on the books and series Game 
 
 
 
-The first Tyrion image was used for the favicon too I got it from twitter: [link](https://mobile.twitter.com/got_tyrion)
+The first Tyrion image at the bottom of the page was used for the the favicon too. I got it from twitter: [link](https://mobile.twitter.com/got_tyrion)
 
 The happy Tyrion photo came from rstudio pubs: [link](https://rstudio-pubs-static.s3.amazonaws.com/376023_b04b6149e6664d949b065bbe0e89b4e4.html)
 
@@ -35,6 +37,13 @@ Flexbox functionality was used by implenting the Boostrrap CDN: [link](https://c
 The animation on the board is from animate.css, created by Daniel Eden, Elton Mesquita, and Waren Gonzagawhich - [link](https://animate.style/)
 
 The Westeros map for the background image came from Unsplash, created by Mauricio Santos: [link](https://unsplash.com/photos/N1gFsYf9AI0)
+
+## Ice Box ❆
+- Change color on hover
+- Winning Sound Effect
+- Ability to play a computer
+- Find smaller TV Show theme file to implement
+
 
 
 
