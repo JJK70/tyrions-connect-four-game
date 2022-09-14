@@ -7,7 +7,7 @@ Tyrion's Connect Four is a Connect Four game based on the books and series Game 
 
 ## PLAY THE GAME HERE: [Tyrion's Connect Four](https://tyrions-lets-connect-game.netlify.app/)
 
-### Languages used 🗯
+### Languages used;
 
  * HTML
  * CSS
