@@ -1,3 +1,4 @@
+
 # tyrions-connect-four-game
 
 ![Connect Four](./images/connect_four_hp.jpg "Connect Four")
@@ -15,10 +16,25 @@ Tyrion's Connect Four is a Connect Four game based on the books and series Game 
 
 
 
-First tyrion image: https://mobile.twitter.com/got_tyrion
-Tyrion happy - https://rstudio-pubs-static.s3.amazonaws.com/376023_b04b6149e6664d949b065bbe0e89b4e4.html
-Third Tyrion image was my personal photo.
-Gradient picker: https://cssgradient.io/
-Audio files: https://www.101soundboards.com/boards/23374-tyrion-lannister-soundboard
+The first Tyrion image was used for the favicon too I got it from twitter: [link](https://mobile.twitter.com/got_tyrion)
+
+The happy Tyrion photo came from rstudio pubs: [link](https://rstudio-pubs-static.s3.amazonaws.com/376023_b04b6149e6664d949b065bbe0e89b4e4.html)
+
+The third Tyrion image was my personal photo of my dog, his name is Tyrion.
+
+The gradient picker I used was from CSS Gradient: [link](https://cssgradient.io/)
+
+All audio files came from 101 Soundboards: [link](https://www.101soundboards.com/boards/23374-tyrion-lannister-soundboard)
+
+The winningCombo's combinations were utilized from Ania Kubow's Connect Four project on github.com - [link](https://github.com/kubowania/connect-four)
+
+The font on the game page was from Google Fonts :[link](https://fonts.googleapis.com/css2?family=Cinzel:wght@400;900&family=Fredoka+One&family=Gloria+Hallelujah&family=Monoton&family=Roboto:wght@500&display=swap" rel="stylesheet)
+
+Flexbox functionality was used by implenting the Boostrrap CDN: [link](https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT)
+
+The animation on the board is from animate.css, created by Daniel Eden, Elton Mesquita, and Waren Gonzagawhich - [link](https://animate.style/)
+
+The Westeros map for the background image came from Unsplash, created by Mauricio Santos: [link](https://unsplash.com/photos/N1gFsYf9AI0)
+
 
 
