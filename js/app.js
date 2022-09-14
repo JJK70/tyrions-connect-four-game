@@ -82,9 +82,9 @@ const resetBtnEl = document.querySelector('#reset-button')
 const tyrionImg = document.querySelector('#tyrion')
 const tyrionSays = new Audio('./audio/a-lannistor-always-pays-his-debts.mp3')
 const tyrionImg2 = document.querySelector('#tyrion2')
-const tyrionSays2 = new Audio('./audio/i-am-happy.mp3')
+const tyrionSays2 = new Audio('./audio/i-drink-and-i-know-things.mp3')
 const tyrionImg3 = document.querySelector('#tyrion3')
-const tyrionSays3 = new Audio('./audio/ive-been-a-busy-man.mp3')
+const tyrionSays3 = new Audio('./audio/i-am-happy.mp3')
 
 
 /*----------------------------- Event Listeners -----------------------------*/
