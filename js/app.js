@@ -108,7 +108,6 @@ tyrionImg3.addEventListener("click", function(evt){
   tyrionSays3.play()
 })
 
-
 /*-------------------------------- Functions --------------------------------*/
 init()
 
