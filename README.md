@@ -16,7 +16,7 @@ Tyrion's Connect Four is a Connect Four game based on the books and series Game 
  * JavaScript
  * git
 
-
+Planning materials can be found here: [link](https://docs.google.com/document/d/10WaQTWGbxYVvYwpdCRfO_mmdD64D5wLfZFPDxKKYIeM/edit)
 
 The first Tyrion image at the bottom of the page was used for the the favicon too. I got it from twitter: [link](https://mobile.twitter.com/got_tyrion)
 
