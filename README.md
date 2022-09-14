@@ -39,7 +39,6 @@ The animation on the board is from animate.css, created by Daniel Eden, Elton Me
 The Westeros map for the background image came from Unsplash, created by Mauricio Santos: [link](https://unsplash.com/photos/N1gFsYf9AI0)
 
 ## Ice Box ❆
-- Change color on hover
 - Winning Sound Effect
 - Ability to play a computer
 - Find smaller TV Show theme file to implement
