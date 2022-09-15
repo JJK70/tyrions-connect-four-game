@@ -22,15 +22,15 @@ body {
     font-weight bold;
     font-weight: 800;
   }
-   h1 {
+  h1 {
     padding-top: 10px;
-   }
+}
   
-   h5 {
+  h5 {
     color: white;
     margin: 15px 15px;
     font-weight: bold;
-   }
+  }
   
   .headlines {
     background: rgb(2,0,36);
@@ -88,12 +88,12 @@ body {
   .reset {
     text-align: center;
     margin-top: 25px;
-   }
+  }
   
-   #favicon {
+  #favicon {
     width: 32px;
     height: 32px;
-   }
+  }
   
   #reset-button {
     background-color: #CFF2FF;

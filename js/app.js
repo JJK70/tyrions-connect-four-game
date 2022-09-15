@@ -143,7 +143,7 @@ function render() {
     confetti.start(3000)
   }
 
-  }
+}
 
 function handleClick(evt) {
   const sqIdx = parseInt(evt.target.id.replace('sq', ''))
