@@ -30,13 +30,13 @@ All audio files came from 101 Soundboards: [link](https://www.101soundboards.com
 
 The winningCombo's combinations were utilized from Ania Kubow's Connect Four project on github.com - [link](https://github.com/kubowania/connect-four)
 
-The font on the game page was from Google Fonts :[link](https://fonts.googleapis.com/css2?family=Cinzel:wght@400;900&family=Fredoka+One&family=Gloria+Hallelujah&family=Monoton&family=Roboto:wght@500&display=swap")
+The font on the game page is from Google Fonts :[link](https://fonts.googleapis.com/css2?family=Cinzel:wght@400;900&family=Fredoka+One&family=Gloria+Hallelujah&family=Monoton&family=Roboto:wght@500&display=swap")
 
 Flexbox functionality was used by implenting the Boostrrap CDN: [link](https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css")
 
 The animation on the board is from animate.css, created by Daniel Eden, Elton Mesquita, and Waren Gonzagawhich - [link](https://animate.style/)
 
-The Westeros map for the background image came from Unsplash, created by Mauricio Santos: [link](https://unsplash.com/photos/N1gFsYf9AI0)
+The Westeros map for the background image is from Unsplash, created by Mauricio Santos: [link](https://unsplash.com/photos/N1gFsYf9AI0)
 
 ## Ice Box ❆
 - Winning Sound Effect

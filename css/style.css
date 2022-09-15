@@ -1,121 +1,122 @@
 body {
-display: flex;
-background-color: #F8F8F8;
-font-family: 'Cinzel', cursive;
-margin: 0;
-height: 100vh;
-display: flex;
-flex-direction: column;
-margin: 0 auto;
-max-width: 700px;
-background-image: url("../images/got_background_unsplash.jpg");
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
-padding-bottom: 50px;
-margin-top: 25px;
-}
-
-h1, h2, h3 {
-  text-align: center;
-  color: white;
-  font-weight bold;
-  font-weight: 800;
-}
- h1 {
-  padding-top: 10px;
- }
-
- h5 {
-  color: white;
-  margin: 15px 15px;
-  font-weight: bold;
- }
-
-.headlines {
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,87,9,1) 58%, rgba(255,149,0,0) 100%);
-  margin-bottom: 15px;
-  border: 2px solid #CFF2FF;
-}
-
-.fire{
-  color: #FF7700;
-}
-
-.ice {
-  color: #CFF2FF
-}
-
-#board {
-  display: grid;
-  grid-template-rows: repeat(6, 85px);
-  grid-template-columns: repeat(7, 100px);
-  margin: 0 auto;
-  width: 700x;
-  height: 520px;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,22,29,1) 14%, rgba(9,59,121,1) 52%, rgba(13,15,32,1) 100%, rgba(255,149,0,0) 100%);
-  border: 3px solid #FF7700;
-  padding-bottom: 10px;
-}
-
-#board > div {
   display: flex;
-  flex-wrap: wrap;
+  background-color: #F8F8F8;
+  font-family: 'Cinzel', cursive;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
-  height: 75px;
-  width: 75px;
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.game-square {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height:100%;
-  background-color: #B2BEB5;
-}
-
-.game-square:hover {
-  background-color: #414a4c;
-}
-
-.reset {
-  text-align: center;
+  max-width: 700px;
+  background-image: url("../images/got_background_unsplash.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 50px;
   margin-top: 25px;
- }
-
- #favicon {
-  width: 32px;
-  height: 32px;
- }
-
-#reset-button {
-  background-color: #CFF2FF;
-  border-radius: 40%;
-  padding: 8px;
-  font-weight: bold;
-  border: 1px solid blue;
-}
-
-#audio {
-  display: flex; 
-  justify-content: center;
-  padding-bottom: 30px;
-}
-
-.card-body {
-  padding: 0;
-
-}
-
-.card-body > img {
-  width: 175px;
-  height: 175px;
-}
-
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+    color: white;
+    font-weight bold;
+    font-weight: 800;
+  }
+   h1 {
+    padding-top: 10px;
+   }
+  
+   h5 {
+    color: white;
+    margin: 15px 15px;
+    font-weight: bold;
+   }
+  
+  .headlines {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,87,9,1) 58%, rgba(255,149,0,0) 100%);
+    margin-bottom: 15px;
+    border: 2px solid #CFF2FF;
+  }
+  
+  .fire{
+    color: #FF7700;
+  }
+  
+  .ice {
+    color: #CFF2FF
+  }
+  
+  #board {
+    display: grid;
+    grid-template-rows: repeat(6, 85px);
+    grid-template-columns: repeat(7, 100px);
+    margin: 0 auto;
+    width: 700x;
+    height: 520px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,22,29,1) 14%, rgba(9,59,121,1) 52%, rgba(13,15,32,1) 100%, rgba(255,149,0,0) 100%);
+    border: 3px solid #FF7700;
+    padding-bottom: 10px;
+  }
+  
+  #board > div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .game-square {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100%;
+    background-color: #B2BEB5;
+  }
+  
+  .game-square:hover {
+    background-color: #414a4c;
+  }
+  
+  .reset {
+    text-align: center;
+    margin-top: 25px;
+   }
+  
+   #favicon {
+    width: 32px;
+    height: 32px;
+   }
+  
+  #reset-button {
+    background-color: #CFF2FF;
+    border-radius: 40%;
+    padding: 8px;
+    font-weight: bold;
+    border: 1px solid blue;
+  }
+  
+  #audio {
+    display: flex; 
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  
+  .card-body {
+    padding: 0;
+  
+  }
+  
+  .card-body > img {
+    width: 175px;
+    height: 175px;
+  }
+  
+  
