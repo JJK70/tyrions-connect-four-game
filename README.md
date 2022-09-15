@@ -1,5 +1,5 @@
 
-# tyrions-connect-four-game
+# Tyrion's Connect Four Game
 
 ![Connect Four](./images/connect_four_hp.jpg "Connect Four")
 
