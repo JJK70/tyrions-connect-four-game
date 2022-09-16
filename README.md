@@ -15,6 +15,7 @@ Welcome to the Seven Kingdoms! Tyrion's Connect Four is a Connect Four game base
  * CSS
  * JavaScript
  * git
+ * Bootstrap
 
 Planning materials can be found here: [link](https://docs.google.com/document/d/10WaQTWGbxYVvYwpdCRfO_mmdD64D5wLfZFPDxKKYIeM/edit)
 
