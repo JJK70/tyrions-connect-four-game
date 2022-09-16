@@ -36,6 +36,8 @@ Flexbox functionality was used by implenting the Boostrrap CDN: [link](https://c
 
 The animation on the board is from animate.css, created by Daniel Eden, Elton Mesquita, and Waren Gonzagawhich - [link](https://animate.style/)
 
+The source for the confetti functionality can be found here: [link](https://github.com/SEI-Remote/confetti)
+
 The Westeros map for the background image is from Unsplash, created by Mauricio Santos: [link](https://unsplash.com/photos/N1gFsYf9AI0)
 
 ## Ice Box ❆
