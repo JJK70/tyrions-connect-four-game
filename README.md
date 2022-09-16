@@ -9,7 +9,7 @@ Welcome to the Seven Kingdoms! Tyrion's Connect Four is a Connect Four game base
 
 
 
-### Languages used;
+### Languages used:
 
  * HTML
  * CSS

@@ -116,8 +116,7 @@ function init() {
   turn = 1
   winner = null
   render() 
-  resetBtnEl.setAttribute('hidden', true)
-  
+  resetBtnEl.setAttribute('hidden', true)  
 }
 
 function render() {
