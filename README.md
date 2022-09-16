@@ -44,6 +44,7 @@ The Westeros map for the background image is from Unsplash, created by Mauricio 
 - Winning Sound Effect
 - Ability to play a computer
 - Find smaller TV Show theme file to implement
+- Find workaround for video issue
 
 
 
